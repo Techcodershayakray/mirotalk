@@ -8103,7 +8103,7 @@ function showAbout() {
  */
 function leaveRoom() {
     if (surveyActive) {
-        leaveFeedback();
+        openURL('/landing');
     } else {
         checkRecording();
         openURL('/newcall');
