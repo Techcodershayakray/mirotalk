@@ -7,12 +7,12 @@ body {
     /* background-image: url(../images/illustration-section-01.svg); */
     background-image: url(../images/cls2.jpg);
     background-repeat: no-repeat;
-    background-size: cover; /*auto*/
-    left: 50%;
-    top: 0;
-    background-position: center top;
-    margin: 0;
-}
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          margin: 0;
+          padding: 0;
+      }
 
 @media (max-width: 640px) {
     .section:first-of-type {
