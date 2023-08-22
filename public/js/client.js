@@ -8102,12 +8102,9 @@ function showAbout() {
  * Leave the Room and create a new one
  */
 function leaveRoom() {
-    if (surveyActive) {
-           leaveFeedback();
-    } else {
-        checkRecording();
+   
         openURL('/newcall');
-    }
+    
 }
 
 /**
