@@ -8133,7 +8133,7 @@ function leaveFeedback() {
     }).then((result) => {
         checkRecording();
         if (result.isConfirmed) {
-            openURL(surveyURL);
+            openURL('https://classroom-web.onrender.com');
         } else {
             openURL('/newcall');
         }
