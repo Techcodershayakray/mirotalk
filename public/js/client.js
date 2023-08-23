@@ -8074,8 +8074,19 @@ function showAbout() {
     playSound('newMessage');
 
 
+    Swal.fire({
+        background: swalBackground,
+        position: 'center',
+        title: '<strong>It is a web classroom similar to google duo,teams,zoom which is very esy to use enjoy</strong>',
+       
+        showClass: {
+            popup: 'animate__animated animate__fadeInDown',
+        },
+        hideClass: {
+            popup: 'animate__animated animate__fadeOutUp',
+        },
+    });
 }
-
 /**
  * Leave the Room and create a new one
  */
